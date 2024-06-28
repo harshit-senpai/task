@@ -2,17 +2,21 @@ import Image from "next/image";
 
 const Overview = () => {
   return (
-    <div className="flex-1 md:basis-[70%]">
-      <div className="px-16 py-16 border-b-[0.5px] border-neutral-grey-2">
-        <div className="flex items-center gap-5 mb-9">
-          <h1 className="text-4xl font-semibold">Senior Product designer</h1>
+    <div className="flex-1 md:w-[70%]">
+      <div className="px-4 py-4 md:px-16 md:py-16 border-b-[0.5px] border-neutral-grey-2">
+        <div className="flex flex-col md:flex-row items-center gap-2 md:gap-5 mb-9">
+          <h1 className="text-2xl md:text-4xl font-semibold">
+            Senior Product designer
+          </h1>
           <div className="w-[7px] h-[7px] rounded-full bg-neutral-grey-2" />
-          <p className="text-sm font-semibold text-neutral-grey-4">
-            Posted 2 Days ago
-          </p>
-          <div className="flex items-center justify-between gap-2 p-1.5 rounded-full border-[0.5px] border-green-400 bg-green-200">
-            <div className="w-[7px] h-[7px] rounded-full bg-green-500" />
-            <p className="text-xs text-green-700 font-medium">Open</p>
+          <div className="flex gap-4 items-center">
+            <p className="text-sm font-semibold text-neutral-grey-4">
+              Posted 2 Days ago
+            </p>
+            <div className="flex items-center justify-between gap-2 p-1.5 rounded-full border-[0.5px] border-green-400 bg-green-200">
+              <div className="w-[7px] h-[7px] rounded-full bg-green-500" />
+              <p className="text-xs text-green-700 font-medium">Open</p>
+            </div>
           </div>
         </div>
         <div className="flex items-center gap-3">
@@ -39,9 +43,9 @@ const Overview = () => {
           </div>
         </div>
       </div>
-      <div className="py-16 border-b-[0.5px] border-neutral-grey-2">
-        <div className="grid grid-cols-4 gap-4">
-          <div className="px-16 flex flex-col items-start gap-2">
+      <div className="py-6 px-4 md:py-16 border-b-[0.5px] border-neutral-grey-2">
+        <div className="grid md:grid-cols-4 gap-4">
+          <div className="px-4 md:px-16 flex flex-col items-start gap-2">
             <p className="text-sm text-text-1 font-semibold mb-2">
               Skills Required
             </p>
@@ -83,11 +87,11 @@ const Overview = () => {
             </p>
             <p className="text-lg font-semibold ">English</p>
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 ml-6">
             <p className="text-sm text-text-1 font-semibold mb-1">Type</p>
             <p className="text-lg font-semibold ">Full Time</p>
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 ml-6">
             <p className="text-sm text-text-1 font-semibold mb-1">
               Years of Experience
             </p>
@@ -95,7 +99,7 @@ const Overview = () => {
           </div>
         </div>
       </div>
-      <div className="px-16 py-16 border-b-[0.5px] border-neutral-grey-2">
+      <div className="p-10 md:px-16 md:py-16 border-b-[0.5px] border-neutral-grey-2">
         <div className="flex flex-col">
           <p className="text-sm text-text-1 font-medium mb-4">About the Job</p>
           <p className="text-md font-semibold mb-1">
@@ -151,7 +155,7 @@ const Overview = () => {
           <p className="text-md font-semibold mb-1">Work Location: In Person</p>
         </div>
       </div>
-      <div className="px-16 py-16">
+      <div className="p-10 md:px-16 py-16">
         <div className="flex w-[10%] mb-10 items-center justify-between gap-5">
           <Image
             src="/assets/attlasian.svg"
@@ -161,7 +165,7 @@ const Overview = () => {
           />
           <p className="text-xl text-black font-semibold">Atlassian</p>
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           <div className="flex flex-col">
             <div className="mb-8">
               <p className="text-sm font-semibold text-text-1 mb-2">

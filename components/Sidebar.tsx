@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Sidebar = () => {
   return (
-    <div className="md:basis-[30%] border-l-[0.5px] border-neutral-grey-2 bg-gray">
+    <div className="md:w-[30%] border-l-[0.5px] border-neutral-grey-2 bg-gray">
       <div className="pt-6 px-4">
         <div className="flex items-center justify-center gap-2">
           <div className="px-6 py-3 border-[0.5px] border-orange-300 bg-orange-200 flex items-center gap-2 rounded-md">
@@ -12,7 +12,7 @@ const Sidebar = () => {
               width={15}
               alt="delete logo"
             />
-            <p className="text-orange-300 font-sm font-semibold">Delete Job</p>
+            <p className="text-orange-300 md:text-sm text-xs font-semibold">Delete Job</p>
           </div>
           <div className="px-6 py-3 border-[0.5px] border-orange-200 bg-orange-300 flex items-center gap-2 rounded-md">
             <Image
@@ -21,7 +21,7 @@ const Sidebar = () => {
               width={15}
               alt="edit logo"
             />
-            <p className="text-white fot-sm font-semibold">Edit Job</p>
+            <p className="text-white md:text-sm text-xs font-semibold">Edit Job</p>
           </div>
         </div>
         <div className="mt-10 px-4">
@@ -33,7 +33,7 @@ const Sidebar = () => {
                 width={20}
                 alt="applicants"
               />
-              <p className="text-md text-text-1 font-semibold ">Applicants</p>
+              <p className="text-md text-text-1 font-semibold">Applicants</p>
             </div>
             <div className="font-bold text-md">400</div>
           </div>

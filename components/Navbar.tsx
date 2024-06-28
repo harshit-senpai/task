@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <header className="min-h-[40px] max-w-full py-6 px-8 shadow-sm border-b-[0.25px] border-colors-border-border-primary">
+    <header className="min-h-[30px] max-w-full py-6 px-8 shadow-sm border-b-[0.25px] border-colors-border-border-primary">
       <nav className="mx-auto flex items-center justify-between gap-5">
         <div className="flex flex-col items-start justify-end pt-0 pb-1.5 pr-[18px] pl-0">
           <div className="bg-neutral-grey overflow-hidden flex flex-row items-start justify-start py-[17px] px-[26px] z-[1]">
             <b className="relative text-base text-orange-300">Logo</b>
           </div>
         </div>
-        <div className="rounded-[36px] border-[0.5px] flex items-center justify-between gap-8 border-solid border-colors-border-border-primary p-2 bg-white md:w-full">
+        <div className="rounded-[36px] border-[0.5px] hidden md:flex items-center justify-between gap-8 border-solid border-colors-border-border-primary p-2 bg-white">
           <div className="lg-text-[17px] rounded-[28px] min-w-[108px] gap-2 border-2 border-orange-150 flex items-center flex-row justify-center py-7 text-center font-medium h-[46px] px-4 text-base bg-orange-300">
             <Image
               src="/assets/Icon.svg"

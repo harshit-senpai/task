@@ -39,20 +39,6 @@ const config: Config = {
         "radius-full": "9999px",
       },
     },
-    screens: {
-      mq1400: {
-        raw: "screen and (max-width: 1400px)",
-      },
-      mq1125: {
-        raw: "screen and (max-width: 1125px)",
-      },
-      mq825: {
-        raw: "screen and (max-width: 825px)",
-      },
-      mq450: {
-        raw: "screen and (max-width: 450px)",
-      },
-    },
   },
   plugins: [],
 };
